@@ -23,6 +23,7 @@ Service Metrics enable gathering usage and status metrics. Metrics datasets are 
 
 You can configure only one instance of the {{site.data.keyword.mon_full}} service per region to collect service metrics. Service metrics are enabled by default in all instances, and cannot be disabled.
 
+- To view metrics for a transit gateway, you must have at least one connection associated with it.
 - Provision an instance of the {{site.data.keyword.mon_full_notm}} service. After you provision the Monitoring instance, the *Observability* page opens. To continue working with {{site.data.keyword.cloud_notm}}, go back to the {{site.data.keyword.cloud_notm}} console.
 - To configure the Monitoring instance, you must turn on the *service metrics* configuration setting.
 - If a Monitoring instance in a region is already enabled to collect service metrics, metrics from enabled-monitoring services are collected automatically and available for monitoring through this instance. For more information about enabled-monitoring services, see [IBM Cloud Monitoring](https://www.ibm.com/products/cloud-monitoring){: external}.
